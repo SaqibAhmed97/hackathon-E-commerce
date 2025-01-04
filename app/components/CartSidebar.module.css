@@ -1,0 +1,74 @@
+/* Cart Sidebar CSS (CSS Modules) */
+
+/* Button to open the cart */
+.openCartBtn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    z-index: 1000;
+  }
+  
+  /* Cart Sidebar styles */
+  .cartSidebar {
+    position: fixed;
+    top: 0;
+    right: -300px; /* Hidden initially */
+    height: 100%;
+    width: 300px;
+    background-color: #333;
+    color: white;
+    transition: right 0.3s;
+    z-index: 999;
+    padding-top: 60px;
+  }
+  
+  .cartSidebar.open {
+    right: 0; /* Slide in when open */
+  }
+  
+  .cartSidebar h2 {
+    margin-left: 20px;
+  }
+  
+  .cartItems {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cartItem {
+    padding: 10px;
+    border-bottom: 1px solid #444;
+  }
+  
+  .checkoutBtn {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Close button */
+  .closeBtn {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 30px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
