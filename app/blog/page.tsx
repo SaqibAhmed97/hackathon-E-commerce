@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { HiOutlineTrophy } from "react-icons/hi2";
-import { BsPatchCheck, BsSearch } from "react-icons/bs";
+import { BsPatchCheck } from "react-icons/bs";
 import { LiaHeadsetSolid } from "react-icons/lia";
 import { FcShipped } from "react-icons/fc";
 import Link from "next/link";
